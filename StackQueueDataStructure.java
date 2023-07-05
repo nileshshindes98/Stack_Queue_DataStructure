@@ -1,12 +1,18 @@
 package stack;
 
+import java.util.LinkedList;
+import java.util.Queue;
 import java.util.Stack;
 public class StackQueueDataStructure {
     public static void main(String[] args) {
         stack();
+        System.out.println("-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-");
+        queue();
 
     }
-    public static void stack() {
+
+    //method for creating stack
+    static void stack() {
         System.out.println("************ Stack *************");
         System.out.println();
         Stack<Integer> stack = new Stack<>();
@@ -52,5 +58,23 @@ public class StackQueueDataStructure {
 
         System.out.println();
         System.out.println("************ Stack *************");
+    }
+
+    //method for creating queue
+    static void queue() {
+        System.out.println("************ Queue *************");
+        System.out.println();
+        Queue<Integer> queue = new LinkedList<>();
+
+        //UC3=Ability to create a Queue of 56->30->70
+        queue.add(56);
+        queue.add(30);
+        queue.add(70);
+
+        System.out.println("Queue = " +queue);
+
+
+        System.out.println();
+        System.out.println("************ Queue *************");
     }
 }
