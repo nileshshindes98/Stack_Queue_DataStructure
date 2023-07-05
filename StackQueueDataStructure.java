@@ -73,6 +73,21 @@ public class StackQueueDataStructure {
 
         System.out.println("Queue = " +queue);
 
+        //UC4=Ability to dequeue from the beginning
+
+        int dequeue1 = queue.remove();
+        System.out.println("Remove((Dequeue) = " +dequeue1);
+
+        int dequeue2 = queue.remove();
+        System.out.println("Remove((Dequeue) = " +dequeue2);
+
+        int dequeue3 = queue.remove();
+        System.out.println("Remove((Dequeue) = " +dequeue3);
+
+
+        System.out.println("After Dequeue = " +queue);
+
+
 
         System.out.println();
         System.out.println("************ Queue *************");
